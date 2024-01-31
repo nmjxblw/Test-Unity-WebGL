@@ -1,0 +1,234 @@
+{
+    "items": [
+        {
+            "id": "00",
+            "name": [
+                "test_item_00",
+                "测试道具_00"
+            ],
+            "price": [
+                -1
+            ],
+            "sellRate": 0.1,
+            "maxStack": 1,
+            "description": [
+                "This is test item 00.",
+                "这是测试道具00。"
+            ],
+            "spriteUrl": "test_item_00"
+        },
+        {
+            "id": "01",
+            "name": [
+                "test_item_01",
+                "测试道具_01"
+            ],
+            "price": [
+                1
+            ],
+            "sellRate": 0.1,
+            "maxStack": 10,
+            "description": [
+                "This is test item 01.",
+                "这是测试道具01。"
+            ],
+            "spriteUrl": "test_item_01"
+        },
+        {
+            "id": "02",
+            "name": [
+                "Spicy Strips",
+                "辣条"
+            ],
+            "sellPrice": 6.5,
+            "purchasePrice": 4,
+            "sellRate": 0.8,
+            "maxSell": 100,
+            "maxStack": 999,
+            "description": [
+                "Who says spicy strips can't be eaten as a meal?",
+                "谁说辣条不能当饭吃？"
+            ],
+            "spriteUrl": "#"
+        },
+        {
+            "id": "03",
+            "name": [
+                "Coke",
+                "可乐"
+            ],
+            "sellPrice": 2,
+            "purchasePrice": 3,
+            "sellRate": 0.9,
+            "maxSell": 100,
+            "maxStack": 999,
+            "description": [
+                "Coke, the taste of happiness.",
+                "快乐水，人间至味。"
+            ],
+            "spriteUrl": "#"
+        },
+        {
+            "id": "04",
+            "name": [
+                "Ice Cream",
+                "冰激凌"
+            ],
+            "sellPrice": 9,
+            "purchasePrice": 7,
+            "sellRate": 0.8,
+            "maxSell": 100,
+            "maxStack": 999,
+            "description": [
+                "Ice Cream, the goat of all desserts.",
+                "我冰伟大，无需多言"
+            ],
+            "spriteUrl": "#"
+        },
+        {
+            "id": "05",
+            "name": [
+                "Game Console",
+                "游戏机"
+            ],
+            "sellPrice": 750,
+            "purchasePrice": 500,
+            "sellRate": 0.3,
+            "maxSell": 100,
+            "maxStack": 999,
+            "description": [
+                "A game console that has just been listed and has received rave reviews.",
+                "刚上市的游戏机，大受好评"
+            ],
+            "spriteUrl": "#"
+        },
+        {
+            "id": "06",
+            "name": [
+                "doll",
+                "娃娃"
+            ],
+            "sellPrice": 560,
+            "purchasePrice": 350,
+            "sellRate": 0.3,
+            "maxSell": 100,
+            "maxStack": 999,
+            "description": [
+                "Every doll has a story.",
+                "每一个娃娃都有一个故事"
+            ],
+            "spriteUrl": "#"
+        },
+        {
+            "id": "07",
+            "name": [
+                "Dinosaur Toys",
+                "小恐龙"
+            ],
+            "sellPrice": 360,
+            "purchasePrice": 200,
+            "sellRate": 0.25,
+            "maxSell": 100,
+            "maxStack": 999,
+            "description": [
+                "",
+                ""
+            ],
+            "spriteUrl": "#"
+        },
+        {
+            "id": "08",
+            "name": [
+                "Cigarette",
+                "香烟"
+            ],
+            "price": [50, 120],
+            "sellRate": 0.4,
+            "maxStack": 99,
+            "description": [
+                "Smoking is harmful to health.",
+                "吸烟有害健康"
+            ],
+            "spriteUrl": "#"
+        },
+        {
+            "id": "09",
+            "name": [
+                "Wine",
+                "葡萄酒"
+            ],
+            "price": [100, 210],
+            "sellRate": 0.5,
+            "maxStack": 99,
+            "description": [
+                "Wine is not afraid of the depth of the alley.",
+                "酒香不怕巷子深"
+            ],
+            "spriteUrl": "#"
+        },
+        {
+            "id": "10",
+            "name": [
+                "Flower",
+                "鲜花"
+            ],
+            "price": [
+                35,
+                50
+            ],
+            "sellRate": 0.5,
+            "maxStack": 99,
+            "description": [
+                "Every bouquet of flowers is waiting for you to come.",
+                "每一束鲜花都在等待那个你的到来"
+            ],
+            "spriteUrl": "#"
+        },
+        {
+            "id": "11",
+            "name": [
+                "strange pills",
+                "奇怪的药丸"
+            ],
+            "price": [
+                100,
+                200
+            ],
+            "sellRate": 1,
+            "maxStack": 99,
+            "description": [
+                "A pill of unknown origin, maybe you guessed what it is.",
+                "不明来源的药丸，或许你猜到了它是什么"
+            ],
+            "spriteUrl": "#"
+        },
+        {
+            "id": "12",
+            "name": [
+                "Pistol",
+                "手枪"
+            ],
+            "price": [
+                500,
+                1200
+            ],
+            "sellRate": 1,
+            "maxStack": 99,
+            "description": [
+                "Maybe you shouldn't sell it, but you have no choice",
+                "或许你不该出售它，但你已经别无选择了"
+            ],
+            "spriteUrl": "#"
+        }
+    ],
+    "initialDatas": {
+        "playerState": {
+            "energy": 3,
+            "isSick": false,
+            "money": 0,
+            "health": 100,
+            "reputation": 50,
+            "moral": 50
+        }
+    }
+}
